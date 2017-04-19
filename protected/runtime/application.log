@@ -1,0 +1,796 @@
+2017/04/18 20:48:35 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] The requested address is not valid in its context.
+ in C:\xampp\htdocs\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\xampp\htdocs\yii\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\xampp\htdocs\yii\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 C:\xampp\htdocs\yii\framework\web\CFormModel.php(39): ModelCode->init()
+#6 C:\xampp\htdocs\yii\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 C:\xampp\htdocs\yii\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/gii/model/index
+HTTP_REFERER=http://localhost/yii/gii/default/index
+---
+2017/04/18 20:49:20 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] The requested address is not valid in its context.
+ in C:\xampp\htdocs\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\xampp\htdocs\yii\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\xampp\htdocs\yii\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 C:\xampp\htdocs\yii\framework\web\CFormModel.php(39): ModelCode->init()
+#6 C:\xampp\htdocs\yii\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 C:\xampp\htdocs\yii\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/gii/model/
+---
+2017/04/18 20:50:56 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: invalid data source name in C:\xampp\htdocs\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\xampp\htdocs\yii\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\xampp\htdocs\yii\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 C:\xampp\htdocs\yii\framework\web\CFormModel.php(39): ModelCode->init()
+#6 C:\xampp\htdocs\yii\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 C:\xampp\htdocs\yii\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/gii/model/
+---
+2017/04/18 20:50:59 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: invalid data source name in C:\xampp\htdocs\yii\framework\db\CDbConnection.php:399
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\xampp\htdocs\yii\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\yii\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\xampp\htdocs\yii\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\xampp\htdocs\yii\framework\gii\generators\model\ModelCode.php(60): CModule->__get('db')
+#5 C:\xampp\htdocs\yii\framework\web\CFormModel.php(39): ModelCode->init()
+#6 C:\xampp\htdocs\yii\framework\gii\CCodeGenerator.php(153): CFormModel->__construct()
+#7 C:\xampp\htdocs\yii\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/model')
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/gii/model/
+---
+2017/04/19 03:06:30 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "member". in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('member')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('member')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('member/member')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/member/member
+HTTP_REFERER=http://localhost/yii/
+---
+2017/04/19 04:35:14 [error] [php] date_default_timezone_set(): Timezone ID 'Indonesia/Asian' is invalid (C:\xampp\htdocs\yii\protected\views\admin\_form.php:17)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): AdminController->renderInternal()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(869): AdminController->renderFile()
+#2 C:\xampp\htdocs\yii\protected\views\admin\create.php(20): AdminController->renderPartial()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): AdminController->renderInternal()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(869): AdminController->renderFile()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(782): AdminController->renderPartial()
+#7 C:\xampp\htdocs\yii\protected\controllers\AdminController.php(78): AdminController->render()
+#8 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): AdminController->actionCreate()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): AdminController->runAction()
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#13 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): AdminController->filterAccessControl()
+#14 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): AdminController->run()
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#19 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/admin/create
+in C:\xampp\htdocs\yii\protected\views\admin\_form.php (17)
+in C:\xampp\htdocs\yii\protected\views\admin\create.php (20)
+in C:\xampp\htdocs\yii\protected\controllers\AdminController.php (78)
+2017/04/19 09:40:34 [error] [exception.CException] CException: CActiveForm and its behaviors do not have a method or closure named "date". in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yii\protected\views\admin\_form.php(36): CComponent->__call('date', Array)
+#1 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\protected\views\admin\create.php(20): CController->renderPartial('_form', Array)
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#9 C:\xampp\htdocs\yii\protected\controllers\AdminController.php(78): CController->render('create', Array)
+#10 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): AdminController->actionCreate()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/create')
+#21 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/yii/admin/create
+HTTP_REFERER=http://localhost/yii/admin
+---
+2017/04/19 04:42:04 [error] [exception.ParseError] ParseError: syntax error, unexpected '"date"' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\xampp\htdocs\yii\protected\views\admin\_form.php:36
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#2 C:\xampp\htdocs\yii\protected\views\admin\create.php(20): CController->renderPartial('_form', Array)
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#7 C:\xampp\htdocs\yii\protected\controllers\AdminController.php(78): CController->render('create', Array)
+#8 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): AdminController->actionCreate()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/create')
+#19 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/yii/admin/create
+HTTP_REFERER=http://localhost/yii/admin
+---
+2017/04/19 09:44:26 [error] [exception.CException] CException: Admin and its behaviors do not have a method or closure named "date". in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(227): CComponent->__call('date', Array)
+#1 C:\xampp\htdocs\yii\protected\views\admin\_form.php(36): CActiveRecord->__call('date', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\protected\views\admin\create.php(20): CController->renderPartial('_form', Array)
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#10 C:\xampp\htdocs\yii\protected\controllers\AdminController.php(78): CController->render('create', Array)
+#11 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): AdminController->actionCreate()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#21 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/create')
+#22 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/yii/admin/create
+HTTP_REFERER=http://localhost/yii/admin
+---
+2017/04/19 06:38:57 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('member/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/member/admin
+HTTP_REFERER=http://localhost/yii/member/1
+---
+2017/04/19 06:39:10 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('member/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/member/admin
+HTTP_REFERER=http://localhost/yii/member
+---
+2017/04/19 06:58:21 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "login". in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('login')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/login
+---
+2017/04/19 07:22:48 [error] [exception.ParseError] ParseError: syntax error, unexpected '\' (T_NS_SEPARATOR), expecting ',' or ';' in C:\xampp\htdocs\yii\themes\bottles\views\layouts\main.php:25
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#1 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#2 C:\xampp\htdocs\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="spa...')
+#3 C:\xampp\htdocs\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="spa...')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(214): COutputProcessor->run()
+#5 C:\xampp\htdocs\yii\framework\web\CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#6 C:\xampp\htdocs\yii\protected\views\layouts\column2.php(22): CBaseController->endContent()
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\yii\protected\controllers\MemberController.php(132): CController->render('index', Array)
+#11 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): MemberController->actionIndex()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#21 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('member')
+#22 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/yii/member
+---
+2017/04/19 10:27:16 [error] [php] Undefined variable: model (C:\xampp\htdocs\yii\protected\views\site\index.php:17)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/
+in C:\xampp\htdocs\yii\protected\views\site\index.php (17)
+in C:\xampp\htdocs\yii\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\yii\index.php (13)
+2017/04/19 12:47:26 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/bottles/css/palackok.jpg". in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bottles/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/themes/bottles/css/palackok.jpg
+HTTP_REFERER=http://localhost/yii/themes/bottles/css/main.css
+---
+2017/04/19 12:47:28 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/bottles/css/palackok.jpg". in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bottles/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/themes/bottles/css/palackok.jpg
+HTTP_REFERER=http://localhost/yii/themes/bottles/css/main.css
+---
+2017/04/19 12:50:02 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/bottles/css/palackok.jpg". in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bottles/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/themes/bottles/css/palackok.jpg
+HTTP_REFERER=http://localhost/yii/themes/bottles/css/main.css
+---
+2017/04/19 12:50:04 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/bottles/css/palackok.jpg". in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bottles/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/themes/bottles/css/palackok.jpg
+HTTP_REFERER=http://localhost/yii/themes/bottles/css/main.css
+---
+2017/04/19 13:54:34 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/bottles/css/palackok.jpg". in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bottles/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/themes/bottles/css/palackok.jpg
+HTTP_REFERER=http://localhost/yii/themes/bottles/css/main.css
+---
+2017/04/19 13:54:36 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/bottles/css/palackok.jpg". in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bottles/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/themes/bottles/css/palackok.jpg
+HTTP_REFERER=http://localhost/yii/themes/bottles/css/main.css
+---
+2017/04/19 13:54:40 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/bottles/css/palackok.jpg". in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bottles/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/themes/bottles/css/palackok.jpg
+HTTP_REFERER=http://localhost/yii/themes/bottles/css/main.css
+---
+2017/04/19 13:56:12 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/bottles/css/palackok.jpg". in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bottles/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/themes/bottles/css/palackok.jpg
+HTTP_REFERER=http://localhost/yii/themes/bottles/css/main.css
+---
+2017/04/19 13:56:16 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/bottles/css/palackok.jpg". in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bottles/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/themes/bottles/css/palackok.jpg
+HTTP_REFERER=http://localhost/yii/themes/bottles/css/main.css
+---
+2017/04/19 14:51:59 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('member/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/member/admin
+HTTP_REFERER=http://localhost/yii/member
+---
+2017/04/19 14:52:29 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('member/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/member/admin
+HTTP_REFERER=http://localhost/yii/member/create
+---
+2017/04/19 14:53:00 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('member/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/member/admin
+HTTP_REFERER=http://localhost/yii/member/create
+---
+2017/04/19 14:53:59 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in C:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/view')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/admin/view
+---
+2017/04/19 14:59:53 [error] [exception.CException] CException: The attribute must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional. in C:\xampp\htdocs\yii\framework\zii\widgets\CDetailView.php:185
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(181): CDetailView->run()
+#1 C:\xampp\htdocs\yii\protected\views\admin\view.php(23): CBaseController->widget('zii.widgets.CDe...', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#6 C:\xampp\htdocs\yii\protected\controllers\AdminController.php(55): CController->render('view', Array)
+#7 [internal function]: AdminController->actionView('1')
+#8 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(AdminController), Array)
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(AdminController), Object(ReflectionMethod), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/view')
+#20 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/yii/admin/1
+HTTP_REFERER=http://localhost/yii/admin/update/1
+---
+2017/04/19 14:59:59 [error] [exception.CException] CException: The attribute must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional. in C:\xampp\htdocs\yii\framework\zii\widgets\CDetailView.php:185
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(181): CDetailView->run()
+#1 C:\xampp\htdocs\yii\protected\views\admin\view.php(23): CBaseController->widget('zii.widgets.CDe...', Array)
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#6 C:\xampp\htdocs\yii\protected\controllers\AdminController.php(55): CController->render('view', Array)
+#7 [internal function]: AdminController->actionView('1')
+#8 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(AdminController), Array)
+#9 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(AdminController), Object(ReflectionMethod), Array)
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/view')
+#20 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/yii/admin/1
+HTTP_REFERER=http://localhost/yii/admin/index
+---
+2017/04/19 15:00:52 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/bottles/css/palackok.jpg". in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bottles/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/themes/bottles/css/palackok.jpg
+HTTP_REFERER=http://localhost/yii/themes/bottles/css/main.css
+---
+2017/04/19 15:00:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/bottles/css/palackok.jpg". in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bottles/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/themes/bottles/css/palackok.jpg
+HTTP_REFERER=http://localhost/yii/themes/bottles/css/main.css
+---
+2017/04/19 15:01:28 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/bottles/css/palackok.jpg". in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bottles/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/themes/bottles/css/palackok.jpg
+HTTP_REFERER=http://localhost/yii/themes/bottles/css/main.css
+---
+2017/04/19 15:04:40 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "zii". in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('zii')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/zii
+---
+2017/04/19 15:04:47 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/bottles/css/palackok.jpg". in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bottles/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/themes/bottles/css/palackok.jpg
+HTTP_REFERER=http://localhost/yii/themes/bottles/css/main.css
+---
+2017/04/19 15:05:49 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/bottles/css/palackok.jpg". in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bottles/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/themes/bottles/css/palackok.jpg
+HTTP_REFERER=http://localhost/yii/themes/bottles/css/main.css
+---
+2017/04/19 15:08:02 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('member/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/member/admin
+HTTP_REFERER=http://localhost/yii/member
+---
+2017/04/19 15:12:58 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('member/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/member/admin
+HTTP_REFERER=http://localhost/yii/member
+---
+2017/04/19 15:13:00 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('member/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/member/admin
+HTTP_REFERER=http://localhost/yii/member
+---
+2017/04/19 15:18:52 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/bottles/css/palackok.jpg". in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bottles/...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/themes/bottles/css/palackok.jpg
+HTTP_REFERER=http://localhost/yii/themes/bottles/css/main.css
+---
+2017/04/19 15:20:12 [error] [exception.ParseError] ParseError: syntax error, unexpected '<', expecting end of file in C:\xampp\htdocs\yii\protected\views\admin\index.php:10
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#3 C:\xampp\htdocs\yii\protected\controllers\AdminController.php(130): CController->render('index', Array)
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): AdminController->actionIndex()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii/admin
+HTTP_REFERER=http://localhost/yii/admin
+---
+2017/04/19 15:42:15 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/admin/admin
+HTTP_REFERER=http://localhost/yii/admin
+---
+2017/04/19 15:44:59 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/admin/admin
+HTTP_REFERER=http://localhost/yii/admin
+---
+2017/04/19 15:45:10 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/admin/admin
+HTTP_REFERER=http://localhost/yii/admin
+---
+2017/04/19 16:32:50 [error] [exception.CException] CException: Property "Admin.dateCreated" is not defined. in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('dateCreated')
+#1 C:\xampp\htdocs\yii\protected\models\Admin.php(88): CActiveRecord->__get('dateCreated')
+#2 C:\xampp\htdocs\yii\protected\views\admin\admin.php(48): Admin->search()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#7 C:\xampp\htdocs\yii\protected\controllers\AdminController.php(145): CController->render('admin', Array)
+#8 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): AdminController->actionAdmin()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/admin')
+#19 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/yii/admin/admin
+HTTP_REFERER=http://localhost/yii/admin
+---
+2017/04/19 16:37:01 [error] [exception.CException] CException: Property "Admin.dateCreated" is not defined. in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('dateCreated')
+#1 C:\xampp\htdocs\yii\protected\models\Admin.php(88): CActiveRecord->__get('dateCreated')
+#2 C:\xampp\htdocs\yii\protected\views\admin\admin.php(48): Admin->search()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#7 C:\xampp\htdocs\yii\protected\controllers\AdminController.php(145): CController->render('admin', Array)
+#8 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): AdminController->actionAdmin()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/admin')
+#19 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/yii/admin/admin
+HTTP_REFERER=http://localhost/yii/admin
+---
+2017/04/19 16:52:20 [error] [exception.CException] CException: Property "Admin.dateCreated" is not defined. in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('dateCreated')
+#1 C:\xampp\htdocs\yii\protected\models\Admin.php(88): CActiveRecord->__get('dateCreated')
+#2 C:\xampp\htdocs\yii\protected\views\admin\admin.php(48): Admin->search()
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#7 C:\xampp\htdocs\yii\protected\controllers\AdminController.php(145): CController->render('admin', Array)
+#8 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): AdminController->actionAdmin()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#18 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/admin')
+#19 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/yii/admin/admin
+HTTP_REFERER=http://localhost/yii/admin
+---
+2017/04/19 16:54:12 [warning] [application] Failed to set unsafe attribute "datecreated" of "Admin".
+in C:\xampp\htdocs\yii\protected\controllers\AdminController.php (142)
+in C:\xampp\htdocs\yii\index.php (13)
+2017/04/19 16:54:12 [warning] [application] Failed to set unsafe attribute "lastupdate" of "Admin".
+in C:\xampp\htdocs\yii\protected\controllers\AdminController.php (142)
+in C:\xampp\htdocs\yii\index.php (13)
+2017/04/19 16:54:18 [warning] [application] Failed to set unsafe attribute "datecreated" of "Admin".
+in C:\xampp\htdocs\yii\protected\controllers\AdminController.php (142)
+in C:\xampp\htdocs\yii\index.php (13)
+2017/04/19 16:54:18 [warning] [application] Failed to set unsafe attribute "lastupdate" of "Admin".
+in C:\xampp\htdocs\yii\protected\controllers\AdminController.php (142)
+in C:\xampp\htdocs\yii\index.php (13)
+2017/04/19 16:54:22 [warning] [application] Failed to set unsafe attribute "datecreated" of "Admin".
+in C:\xampp\htdocs\yii\protected\controllers\AdminController.php (142)
+in C:\xampp\htdocs\yii\index.php (13)
+2017/04/19 16:54:22 [warning] [application] Failed to set unsafe attribute "lastupdate" of "Admin".
+in C:\xampp\htdocs\yii\protected\controllers\AdminController.php (142)
+in C:\xampp\htdocs\yii\index.php (13)
+2017/04/19 16:54:25 [warning] [application] Failed to set unsafe attribute "datecreated" of "Admin".
+in C:\xampp\htdocs\yii\protected\controllers\AdminController.php (142)
+in C:\xampp\htdocs\yii\index.php (13)
+2017/04/19 16:54:25 [warning] [application] Failed to set unsafe attribute "lastupdate" of "Admin".
+in C:\xampp\htdocs\yii\protected\controllers\AdminController.php (142)
+in C:\xampp\htdocs\yii\index.php (13)
